@@ -1,0 +1,48 @@
+.titulo{
+  background-color: #8a8b8b;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.cabecalho{
+  border-bottom: 2px solid #000000;
+  padding-top: 15px;
+  display: inline-block;
+  color: #000000;
+}
+.card{
+  border-radius: 15px;
+  border: 1px solid black;
+  margin: 5px;
+}
+.tituloLivro{
+  margin: 15px;
+}
+.equal-width{
+  flex: 1;
+}
+.imagem{
+  margin: 15px;
+}
+.equal-height{
+  display: flex;
+  flex: 1;
+}
+.hover-button {
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+.hover-button:hover {
+  background-color: #ffffff;
+  transform: scale(1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
